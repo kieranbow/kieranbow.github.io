@@ -1459,6 +1459,8 @@ table.alt tfoot
 .poptrox-popup .caption p 
 {
 	color: #ffffff;
+	background-color: rgba(31, 34, 36, 0.85);
+	padding: 0.5em;
 }
 
 .poptrox-popup .loader
@@ -1847,10 +1849,11 @@ body.is-preload #header
 	width: 100%;
 }
 
-	#main .thumb:hover > .image {
-        -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-        filter: blur(5px);
-	}
+#main .thumb:hover > .image 
+{
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
 
 #main .thumb > h2
 {
