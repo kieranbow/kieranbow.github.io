@@ -202,7 +202,7 @@
 		fadeSpeed: 300,
 		onPopupClose: function() { $body.removeClass('modal-active'); },
 		onPopupOpen: function() { $body.addClass('modal-active'); },
-		overlayOpacity: 0,
+		overlayOpacity: 0.9, // <-- Change this to change overlay opacity
 		popupCloserText: '',
 		popupHeight: 150,
 		popupLoaderText: '',
