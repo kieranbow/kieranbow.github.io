@@ -1437,12 +1437,14 @@ table.alt tfoot
 
 .poptrox-popup .caption 
 {
-	padding: 2em 2em 0.1em 2em ;
-	background-image: -moz-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
+	/*padding: 2em 2em 0.1em 2em ;*/
+	padding: 0.5em 0.5em 0.1em 0.5em;
+/*	background-image: -moz-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 	background-image: -webkit-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
 	background-image: -ms-linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
-	background-image: linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);
-	bottom: 0;
+	background-image: linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%);*/
+       background-color: #242629;
+	/*bottom: 0;*/
 	cursor: default;
 	left: 0;
 	position: absolute;
@@ -1459,8 +1461,8 @@ table.alt tfoot
 .poptrox-popup .caption p 
 {
 	color: #ffffff;
-	background-color: rgba(31, 34, 36, 0.85);
-	padding: 0.5em;
+    padding: 0.5em;
+    display: block;
 }
 
 .poptrox-popup .loader
@@ -1535,7 +1537,7 @@ body.touch .poptrox-popup .nav-next
 
 	.poptrox-popup .caption 
     {
-		display: none !important;
+        display: block; /*none !important;*/
 	}
 
 	.poptrox-popup .closer,
