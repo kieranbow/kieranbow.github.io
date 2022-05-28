@@ -255,7 +255,7 @@ a
 a:hover 
 {
 	border-bottom-color: transparent;
-	color: #34a58e !important;
+	color: #E91E63 !important;
 }
 
 strong, b 
@@ -1256,7 +1256,7 @@ table.alt tfoot
 .panel > .inner.split > div
 {
 	margin-left: 4em;
-	width: 50%;
+	/*width: 50%;*/
 }
 
 .panel > .inner.split > :first-child
@@ -1685,7 +1685,7 @@ body.is-preload #header
 
 #header h1 
 {
-	color: #a0a0a1;
+	color: #47c5ab; /*#a0a0a1;*/
 	display: inline-block;
 	font-size: 1em;
 	line-height: 1;
@@ -1788,6 +1788,11 @@ body.is-preload #header
 	    font-size: 0.9em;
 	    padding: 0 1.15em;
     }
+}
+
+.Header_Links
+{
+
 }
 
 /* Main */
